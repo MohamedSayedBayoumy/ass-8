@@ -42,5 +42,6 @@ function getQuotes() {
 
 function qoute() {
   var newQoute = quotes[randomNumber];
-  document.getElementById("qoute").innerHTML = newQoute;
+  document.getElementById("qoute").innerHTML = newQoute.split(' — ')[0];
+  document.getElementById("director").innerHTML = " — "+ newQoute.split(' — ')[1];
 }
