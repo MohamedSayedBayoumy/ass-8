@@ -1,0 +1,37 @@
+ @font-face {
+     font-family: "text_style";
+     src: url(../assets/impact.ttf);
+ }
+
+ h1 {
+     font-family: "text_style";
+     font-weight: 900;
+     color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 53.6px 0px;
+     font-size: 80px;
+ }
+
+ .p1 {
+     font-family: 'Times New Roman', Times, serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size:
+         35px;
+ }
+
+ .custom-a {
+     padding: 30px;
+     text-decoration: none;
+     color: white;
+     background-color: blue;
+     border: all black 1px;
+     /* display: flex; */
+     /* justify-content: center; */
+     /* align-items: center; */
+     margin: 0px 42%;
+     font-size: 15px;
+ }
